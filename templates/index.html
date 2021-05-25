@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Rate Service</title>
+</head>
+<body>
+    <div class="container">
+        <img src="../static/Aritzia_logo.png" alt="Aritzia" class="logo">
+        <!--to do message-->
+        <form action="/submit" method="POST">
+            <div class="form-group">
+                <h3>Customer Name</h3>
+                <input type="text" name="customer" placeholder="Customer Name">
+            </div>
+            <div class="form-group">
+                <h3>Store</h3>
+                <select name="address">
+                    <option value="">Select Store Address</option>
+                    <option value="West Mall">West Mall</option>
+                    <option value="South Gate">South Gate</option>
+                    <option value="South Common">South Common</option>
+                    <option value="Downtown">Downtown</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h3>Please rate the Store</h3>
+                <input type="radio" name="rating" value="1"/>1
+                <input type="radio" name="rating" value="2"/>2
+                <input type="radio" name="rating" value="3"/>3
+                <input type="radio" name="rating" value="4"/>4
+                <input type="radio" name="rating" value="5"/>5
+                <input type="radio" name="rating" value="6"/>6
+                <input type="radio" name="rating" value="7" checked/>7
+            </div>
+            <div class="form-group">
+                <h3>comments about your shopping experience</h3>
+                <textarea name="comments" id="" cols="30" rows="10" placeholder="Tell us what you like and did not like"></textarea>
+            </div>
+            <input type="submit" value="submit" class="btn">
+        </form>
+    </div>
+</body>
+</html>
