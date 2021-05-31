@@ -1,5 +1,6 @@
 # Feedback-App 
 # Technology used:
+- Technologies used:
 Python Flask, PostgreSQL, mailtrap.io
 
 •	Aritizia feedback full stack application allow user to give a shopping experience to the store, which use Python Flask as back end and PostgreSQL as database, use mailtrap.io to send email
